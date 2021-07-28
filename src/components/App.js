@@ -12,7 +12,9 @@ function App() {
 
   return (
     <div className="App">
-      <PokemonPage pokemonCards={pokemonCards}/>
+      <PokemonPage 
+        pokemonCards={pokemonCards} 
+        setPokemonCards={setPokemonCards}/>
     </div>
   );
 }
