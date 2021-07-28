@@ -8,12 +8,10 @@ function PokemonCard({ pokemonCard}) {
   return (
     <Card>
       <div>
-        
         <div onClick={handleIsClicked} className="image">
           { isClicked ? <img src={pokemonCard.sprites.front} alt="oh no!" />
                     : <img src={pokemonCard.sprites.back} alt="oh no!" /> }
         </div>
-        
         <div className="content">
           <div className="header">{pokemonCard.name}</div>
         </div>
